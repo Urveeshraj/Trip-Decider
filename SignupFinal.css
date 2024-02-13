@@ -1,0 +1,93 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container */
+#main {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin-left: 33.33%;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/702/403/small/airplane-flying-and-leaving-heart-shape-dashed-line.jpg");
+}
+
+/* Form inputs */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+input[type='radio'] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Submit button */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20px;
+}
+
+#end {
+    margin-bottom: 10px;
+}
+
+#logo {
+    display: flex;
+}
+
+.link {
+    margin-right: 10px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    #main {
+        width: 90%;
+    }
+}
